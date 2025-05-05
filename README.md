@@ -26,13 +26,13 @@ Este proyecto demuestra cómo implementar temas personalizados en una aplicació
 1. Clona este repositorio:
 
 ```bash
-git clone <url-del-repositorio>
+git clone https://github.com/roberto-aq/tailwind-temas-personalizados.git
 ```
 
 2. Navega al directorio del proyecto:
 
 ```bash
-git clone <url-del-repositorio>
+cd tailwind-temas-personalizados-react
 ```
 
 3. Instala las dependencias:
