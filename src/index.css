@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import 'tailwindcss';
+
+/** 1. EXTENDER TEMA */
+@theme {
+	--color-background: #f9fafb;
+	--color-foreground: #1f2937;
+	--color-primary: #10b981;
+	--color-secondary: #3b82f6;
+
+	--font-inter: 'Inter', sans-serif;
+}
+
+/** 2. SOBREESCRIBIR LAS VARIABLES DE COLORES PARA CADA TEMA */
+@layer base {
+	/* Tema Dark */
+	:root[data-theme='dark'] {
+		--color-background: #111827;
+		--color-foreground: #e5e7eb;
+		--color-primary: #f43f5e;
+		--color-secondary: #fbbf24;
+	}
+
+	/* Tema Forest */
+	:root[data-theme='forest'] {
+		--color-background: #f0fff4;
+		/* --color-foreground: #064e3b; */
+		--color-foreground: #042618;
+		--color-primary: #4caf50;
+		--color-secondary: #6b8e23;
+	}
+
+	/* Tema Ocean */
+	:root[data-theme='ocean'] {
+		--color-background: #e0f7fa;
+		--color-foreground: #00363a;
+		--color-primary: #00aaff;
+		--color-secondary: #0066aa;
+	}
+
+	/* Tema Candy */
+	:root[data-theme='candy'] {
+		--color-background: #fff1f2;
+		--color-foreground: #831843;
+		--color-primary: #f9a8d4;
+		--color-secondary: #db2777;
+	}
+}
+
+/** 3. APLICAR UTILIDADES GLOBALES AL HTML, BODY */
+html,
+body {
+	@apply bg-background text-foreground font-inter;
+}
