@@ -4,7 +4,7 @@ Este proyecto demuestra cómo implementar temas personalizados en una aplicació
 
 ## Características
 
-- Cambio dinámico entre temas claros y oscuros
+- Cambio dinámico entre los diferentes temas
 - Temas personalizados con diferentes paletas de colores
 - Implementado con React + TypeScript
 - Estilizado con Tailwind CSS
@@ -15,9 +15,30 @@ Este proyecto demuestra cómo implementar temas personalizados en una aplicació
 - Node.js (versión 14.x o superior)
 - npm o yarn
 
+## Tecnologías Utilizadas
+- React 19
+- Typescript
+- TailwindCSS (Versión 4)
+- Vite
+
 ## Instalación
 
 1. Clona este repositorio:
+
 ```bash
 git clone <url-del-repositorio>
+```
+
+2. Navega al directorio del proyecto:
+
+```bash
+git clone <url-del-repositorio>
+```
+
+3. Instala las dependencias:
+
+```bash
+npm install
+# o
+yarn install
 ```
